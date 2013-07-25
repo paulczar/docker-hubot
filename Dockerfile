@@ -22,6 +22,8 @@ RUN chmod 755 bin/hubot
 
 ADD hubot-scripts.json hubot-scripts.json
 
+RUN bin/hubot -h
+
 # Start hubot
 CMD ["bin/hubot"]
 
