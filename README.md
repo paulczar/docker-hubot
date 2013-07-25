@@ -4,7 +4,7 @@ Runs a vanilla hubot install.  Use in interactive mode.
 
 ## Build
 
-`docker build github.com/paulczar/docker-hubot`
+`docker build -t paulczar/hubot github.com/paulczar/docker-hubot`
 
 ## Run
 
